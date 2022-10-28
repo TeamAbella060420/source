@@ -30,3 +30,9 @@ export const routeAnimation = {
 
 
 <motion.div variants={routeAnimation} initial="initial" animate="animate" exit="exit">
+
+// @ _app.tsx
+
+<AnimatePresence exitBeforeEnter>
+  <Component {...pageProps} key={routes.route}/>
+</AnimatePresence>  
