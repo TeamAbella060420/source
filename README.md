@@ -45,3 +45,15 @@ export const routeAnimation = {
   transition-duration: 500ms;
 }
 
+// Scroll bar design
+
+::webkit-scrollbar-thumb {
+  background-image: linear-gradient(to right bottom, #00f260, #055e6)
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 0px;
+}
+
+
