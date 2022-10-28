@@ -27,3 +27,6 @@ export const routeAnimation = {
     }
   }  
 }
+
+
+<motion.div variants={routeAnimation} initial="initial" animate="animate" exit="exit">
