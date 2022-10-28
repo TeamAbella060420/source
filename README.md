@@ -36,3 +36,12 @@ export const routeAnimation = {
 <AnimatePresence exitBeforeEnter>
   <Component {...pageProps} key={routes.route}/>
 </AnimatePresence>  
+
+// Hover image
+
+.hover-scale:hover {
+  transform: scale(1.1);
+  transition-delay: 100ms;
+  transition-duration: 500ms;
+}
+
