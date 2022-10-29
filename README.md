@@ -60,3 +60,7 @@ export const routeAnimation = {
 
 https://six-digits-pink.vercel.app/
 
+// Updated the projects
+
+https://six-digits-teamabella060420.vercel.app/
+
