@@ -62,9 +62,16 @@ https://six-digits-pink.vercel.app/
 
 // Updated the projects
 
-https://six-digits-teamabella060420.vercel.app/
+https://six-digits-pink.vercel.app/
 
 // Deployment Website
 
 https://vercel.com/dashboard
+
+// Saving Data's in local storage
+
+const myJSON = JSON.stringify(filterChecked);
+localStorage.setItem("filteredList", myJSON);
+const returnJSON = localStorage.getItem("filteredList");
+let parseJSON = JSON.parse(returnJSON);
 
