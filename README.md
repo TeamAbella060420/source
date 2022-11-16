@@ -75,4 +75,10 @@ localStorage.setItem("filteredList", myJSON);
 const returnJSON = localStorage.getItem("filteredList");
 let parseJSON = JSON.parse(returnJSON);
 
-// 
+// Limiting the remarks text on the width
+style = {{
+  width: '60px',
+  overFlow: 'hidden',
+  textOverflow: 'ellipsis',
+  marginLeft: '15px'
+}}
