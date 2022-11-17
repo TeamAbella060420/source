@@ -84,4 +84,4 @@ style = {{
 }}
 
 // Current date on the calendar
-current < moment().days()moment().days() - 90).satartOf('days') || 
+current < moment().days()moment().days() - 90).satartOf('days') || current > moment().endOf('days')
