@@ -82,3 +82,6 @@ style = {{
   textOverflow: 'ellipsis',
   marginLeft: '15px'
 }}
+
+// Current date on the calendar
+
