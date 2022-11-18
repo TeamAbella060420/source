@@ -90,13 +90,20 @@ current < moment().days()moment().days() - 90).satartOf('days') || current > mom
 
 <div>
   <Popover> 
-    <div>
+    <div
       style={{
         width: 120,
         whiteSpace: 'nowrap',
         textOverflow: 'ellipsis',
         overflow: 'hidden'
       }}
+    <div/>
+      onClick={(e) => {
+        e.stopPropagation();
+       this.getDetail(data);
+      }}
+    >
+    {text}
     <div/>
   <Popover/>
 <div/>
