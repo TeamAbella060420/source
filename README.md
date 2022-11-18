@@ -87,3 +87,7 @@ style = {{
 current < moment().days()moment().days() - 90).satartOf('days') || current > moment().endOf('days')
 
 //Show modal wraped in a constant width adding triple ... at the end
+
+<div>
+  
+<div/>
