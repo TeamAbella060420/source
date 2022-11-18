@@ -88,7 +88,7 @@ current < moment().days()moment().days() - 90).satartOf('days') || current > mom
 
 //Show modal wraped in a constant width adding triple ... at the end
 
-<div>
+<div style={{display: 'flex', justifyContent: 'center'}}>
   <Popover> 
     <div
       style={{
