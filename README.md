@@ -94,6 +94,7 @@ current < moment().days()moment().days() - 90).satartOf('days') || current > mom
       style={{
         width: 120,
         whiteSpace: 'nowrap',
+        textOverflow: 'ellipsis',
       }}
     <div/>
   <Popover/>
