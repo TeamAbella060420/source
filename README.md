@@ -115,3 +115,35 @@ https://contactmentor.com/react-js-practice-exercises-solution/
 // Codesandbox counter
 
 https://upmostly.com/tutorials/build-a-react-timer-component-using-hooks
+
+// CSS Solution 1
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.parent {
+    background: yellow;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    padding: 20px;
+}
+
+.blue {
+    background: blue;
+    width: 200px;
+    height: 100%;
+}
+
+.red {
+    background: red;
+    height: 100%;
+    width: 100%;
+}
