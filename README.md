@@ -117,6 +117,7 @@ https://contactmentor.com/react-js-practice-exercises-solution/
 https://upmostly.com/tutorials/build-a-react-timer-component-using-hooks
 
 // CSS Solution 1
+// Flex
 
 * {
     box-sizing: border-box;
