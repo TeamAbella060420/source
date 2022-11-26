@@ -252,4 +252,15 @@ body {
     height: 100%;
   }
    
+// Three button AddEventListener
+    
+    window.tool = new Tool
+    const genggeng = window.tool
+    
+   document.getElemntById("one1").addEventListener("click", () => {
+      genggeng.one()
+      genggeng.one()
+      genggeng.two()
+      genggeng.one()
+    });
 
