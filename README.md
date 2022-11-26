@@ -139,14 +139,14 @@ body {
 
 .blue {
     background: blue;
-    width: 200px;
+    flex: 1;
     height: 100%;
 }
 
 .red {
     background: red;
     height: 100%;
-    width: 100%;
+    width: 200px;
 }
 
 // CSS Solution 2
@@ -219,3 +219,37 @@ body {
     height: 100%;
     float: right;
   }
+    
+// CSS Solution 4
+// Grid
+    
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}  
+    
+ .parent {
+    background-color: yellow;
+    height: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    padding: 20px;
+ }
+ 
+ .red {
+    backgorund-color: red;
+    height: 100%;
+  }
+  
+  .blue {
+    background-color: blue;
+    height: 100%;
+  }
+   
+
