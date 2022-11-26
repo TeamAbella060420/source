@@ -148,3 +148,39 @@ body {
     height: 100%;
     width: 100%;
 }
+
+// CSS Solution 2
+// Position Relative
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.parent {
+    background-color: yellow;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 20px;
+ }
+ 
+ .red {
+    backgorund-color: red;
+    width: 200px
+    height: 100%;
+    position: relative;
+    z-index;
+  }
+  
+  .blue {
+    background-color blue;
+    width: calc(100% - 200px);
+    position: absolute;
+    inset: 20px 20px 20px auto;
+  }
