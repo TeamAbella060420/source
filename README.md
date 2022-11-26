@@ -171,11 +171,11 @@ body {
  }
  
  .red {
-    backgorund-color: red;
+    background-color: red;
     width: 200px
     height: 100%;
     position: relative;
-    z-index;
+    z-index: 10;
   }
   
   .blue {
@@ -207,8 +207,8 @@ body {
  }
  
  .red {
-    backgorund-color: red;
-    width: 200px
+    background-color: red;
+    width: 200px;
     height: 100%;
     float: left;
   }
@@ -243,7 +243,7 @@ body {
  }
  
  .red {
-    backgorund-color: red;
+    background-color: red;
     height: 100%;
   }
   
