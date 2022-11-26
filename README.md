@@ -184,3 +184,38 @@ body {
     position: absolute;
     inset: 20px 20px 20px auto;
   }
+
+
+// CSS Solution 3
+// Float
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.parent {
+    background-color: yellow;
+    height: 100%;
+    position: relative;
+    padding: 20px;
+ }
+ 
+ .red {
+    backgorund-color: red;
+    width: 200px
+    height: 100%;
+    float: left;
+  }
+  
+  .blue {
+    background-color: blue;
+    width: calc(100% - 200px);
+    height: 100%;
+    float: right;
+  }
