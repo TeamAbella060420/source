@@ -263,4 +263,8 @@ body {
       genggeng.two()
       genggeng.one()
     });
-
+    
+ // TechTools
+ 
+1. Snipaste
+2. youdao
